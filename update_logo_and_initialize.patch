@@ -1,0 +1,19 @@
+Subject: [PATCH] update logo and initialize
+---
+Index: src/main/webapp/app/core/home/home.vue
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/webapp/app/core/home/home.vue b/src/main/webapp/app/core/home/home.vue
+--- a/src/main/webapp/app/core/home/home.vue	(revision ef619f0e71ff953784ff226ed874a0312ebacd8d)
++++ b/src/main/webapp/app/core/home/home.vue	(date 1686260300769)
+@@ -4,7 +4,7 @@
+       <span class="hipster img-fluid rounded"></span>
+     </div>
+     <div class="col-md-9">
+-      <h1 class="display-4" v-text="$t('home.title')">Welcome, Java Hipster!</h1>
++      <h1 class="display-4" v-text="$t('home.title')">Welcome Estimator!</h1>
+       <p class="lead" v-text="$t('home.subtitle')">This is your homepage</p>
+ 
+       <div>
